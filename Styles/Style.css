@@ -19,16 +19,23 @@ main,
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 1320px;
+  width: 100%;
+
+  
   height: 600px;
   margin-top: 50px;
+  
 
   border-radius: 16px;
 
   background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
     url("../Images/Banner\ Image.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+    background-size: cover;
+    background-position: bottom;
+  
+  /* background-size: cover; */
+  
+  
 }
 .last-title {
   color: #fff;
@@ -235,7 +242,7 @@ main,
 
 .y-date {
   color: #f00;
-
+  padding-bottom: 10px;
   font-size: 48px;
   font-style: normal;
   font-weight: 700;
@@ -248,7 +255,8 @@ main,
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
-  line-height: 32px; /* 160% */
+  line-height: 32px;
+  padding-bottom: 10px;
 }
 .main-year img {
   width: 140px;
@@ -289,7 +297,8 @@ main,
 /* Holidays Section End */
 
 /* our protfolio section style */
-.banner7 {
+.banner-7 {
+  margin-top: 80px;
 }
 .img-row {
   display: grid;
