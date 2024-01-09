@@ -132,9 +132,10 @@ main,
   border: none;
   margin-top: 20px;
   background-color: transparent;
+  background: #f00;
 }
 #bbtn {
-  margin-left: 158px;
+  margin-left: 125px;
 }
 /* Welcome styles End */
 
