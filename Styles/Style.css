@@ -2,8 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* font-family: 'Merriweather', serif; */
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 /* Style of Body */
 header,
@@ -12,7 +11,6 @@ main,
   max-width: 1400px;
   margin: 0 auto;
 }
-
 /* header Style */
 .banner-1 {
   display: flex;
@@ -20,12 +18,9 @@ main,
   justify-content: center;
   align-items: center;
   width: 100%;
-
   height: 600px;
   margin-top: 50px;
-
   border-radius: 16px;
-
   background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
     url("../Images/Banner\ Image.png");
   background-size: cover;
@@ -35,30 +30,32 @@ main,
 }
 .last-title {
   color: #fff;
-
+  padding-bottom: 16px;
   font-size: 32px;
 }
 .call {
   color: #fff;
-
+  text-align: center;
+  font-family: Merriweather;
   font-size: 72px;
+  font-style: normal;
   font-weight: 900;
+  line-height: 95px;
 }
 /* header style end */
 
-/* ALL CATAGORIES */
-
+/* ALL CATAGORIES style*/
 .catagories-item {
   text-align: center;
 }
 .c-p-item {
   color: #f00;
-
   font-size: 88px;
   font-style: normal;
-
-  margin-top: 120px;
-  margin-left: ;
+  margin-top: 100px;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
 }
 .c-h-item {
   margin-top: 30px;
@@ -69,6 +66,7 @@ main,
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  font-family: Inter;
 }
 .c-all-item {
   margin-top: 10px;
@@ -85,9 +83,9 @@ main,
   width: 702.9px;
   height: 500px;
 }
+/* ALL CATAGORIES style End */
 
 /* Welcome styles */
-
 .welcome-section {
   display: flex;
   gap: 280px;
@@ -111,13 +109,11 @@ main,
 
   font-size: 64px;
   font-style: normal;
-
-  letter-spacing: 7.04px;
+  letter-spacing: 3px;
 }
 .welcome-p {
   padding-left: 126px;
   color: rgba(255, 255, 255, 0.8);
-
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -130,34 +126,31 @@ main,
   color: #fff;
   font-family: Inter;
   font-size: 20px;
-
   width: 160px;
   height: 64px;
   border-radius: 5px;
-  border: ;
+  border: none;
   margin-top: 20px;
   background-color: transparent;
 }
 #bbtn {
   margin-left: 158px;
 }
+/* Welcome styles End */
 
 /* hotel park style */
-
 .new-park-hotel {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-top: 100px;
-
   height: 482px;
   background: linear-gradient(
     180deg,
     rgba(255, 0, 0, 0.1) 0%,
-    rgba(255, 0, 0, 0) 100%
-  );
-}
+    rgba(255, 0, 0, 0) 100%);
+  }
 .park-1 {
   margin: 15px;
   color: #f00;
@@ -190,13 +183,11 @@ main,
 /* Hotel section style end */
 
 /* NEW BEST OFFER  */
-
 .main-section {
   display: flex;
   align-items: center;
   flex-direction: row;
   gap: 50px;
-
   margin: 140px 0px;
 }
 .offer-header {
@@ -210,7 +201,6 @@ main,
 }
 .offer-heading {
   color: #070211;
-
   font-size: 48px;
   font-style: normal;
   font-weight: 900;
@@ -235,7 +225,6 @@ main,
 }
 .main-image img {
 }
-
 .y-date {
   color: #f00;
   padding-bottom: 10px;
@@ -258,8 +247,9 @@ main,
   width: 140px;
   height: 140px;
 }
-/* Holidays Section */
+/* new best offer section end */
 
+/* Holidays Section */
 .text-sec h4 {
   color: #070211;
   text-align: center;
@@ -308,7 +298,6 @@ main,
 }
 .banner-text {
   color: #f00;
-
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
@@ -349,7 +338,6 @@ main,
 /* Newsletter Style */
 .banner-8 {
   margin: 100px 0;
-
   height: 616px;
   border-radius: 16px;
   background: rgba(255, 0, 0, 0.05);
@@ -385,7 +373,6 @@ main,
   margin-left: 212px;
   padding-bottom: 35px;
 }
-
 .email {
   width: 648px;
   height: 72px;
@@ -432,7 +419,6 @@ footer {
 .social-icons a {
   text-decoration: none;
   padding: 10px;
-
   margin: 10px;
   border-radius: 50%;
 }
@@ -457,7 +443,6 @@ footer {
 }
 .footer-title {
   color: #fff;
-
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
@@ -466,7 +451,6 @@ footer {
 }
 .footer-btn {
   color: #fff;
-
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
