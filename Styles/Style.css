@@ -21,21 +21,17 @@ main,
   align-items: center;
   width: 100%;
 
-  
   height: 600px;
   margin-top: 50px;
-  
 
   border-radius: 16px;
 
   background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
     url("../Images/Banner\ Image.png");
-    background-size: cover;
-    background-position: bottom;
-  
+  background-size: cover;
+  background-position: bottom;
+
   /* background-size: cover; */
-  
-  
 }
 .last-title {
   color: #fff;
@@ -95,10 +91,10 @@ main,
 .welcome-section {
   display: flex;
   gap: 280px;
-  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../Images/Vectorrr.png);
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url(../Images/Vectorrr.png);
   background-repeat: no-repeat;
   background-size: cover;
-  
 
   height: 600px;
 
@@ -268,7 +264,7 @@ main,
   color: #070211;
   text-align: center;
   font-size: 24px;
-
+  padding-bottom: 25px;
   font-weight: 500;
 }
 .holidays {
@@ -278,6 +274,7 @@ main,
   font-size: 72px;
   font-style: normal;
   font-weight: 900;
+  padding-bottom: 25px;
 }
 .holidays-s {
   color: #070211;
@@ -285,20 +282,24 @@ main,
   font-size: 72px;
   font-style: normal;
   font-weight: 900;
+  padding-bottom: 25px;
 }
 .text-sec p {
+  margin-left: 155px;
+  width: 1064px;
   color: rgba(7, 2, 17, 0.6);
   text-align: center;
-
+  font-family: Inter;
   font-size: 20px;
-
+  font-style: normal;
   font-weight: 500;
+  line-height: 25px;
 }
 /* Holidays Section End */
 
 /* our protfolio section style */
 .banner-7 {
-  margin-top: 80px;
+  margin-top: 50px;
 }
 .img-row {
   display: grid;
