@@ -1,6 +1,11 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 /* Style of Body */
 body {
-  background: #fff;
+  /* background: #FFF; */
   width: 1600px;
   height: 7335px;
 }
@@ -9,8 +14,8 @@ body {
 .banner-1 {
   width: 1320px;
   height: 600px;
+  margin-top: 50px;
   margin-left: 20%;
-
   border-radius: 16px;
 
   background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
@@ -22,32 +27,36 @@ body {
   color: #fff;
   text-align: center;
   padding-top: 180px;
-
   font-size: 32px;
 }
 .call {
   color: #fff;
   text-align: center;
-
   font-size: 72px;
-
   font-weight: 900;
 }
 /* header style end */
 
+
 /* ALL CATAGORIES */
+ 
 .catagories-item {
+  text-align: center;
+  
 }
 .c-p-item {
   color: #f00;
-  text-align: center;
-  font-family: Inter;
+  
+  
   font-size: 88px;
   font-style: normal;
-  font-weight: 700;
-  line-height: normal;
+  
+  
+  margin-top: 120px;
+  margin-left: ;
 }
 .c-h-item {
+  margin-top: 30px;
   color: #f00;
   text-align: center;
   font-family: Inter;
@@ -57,6 +66,7 @@ body {
   line-height: normal;
 }
 .c-all-item {
+  margin-top: 10px;
   color: #070211;
   text-align: center;
   font-family: Inter;
@@ -66,9 +76,10 @@ body {
   line-height: normal;
 }
 .c-item-img img {
-  width: 802.9px;
+  margin-top: 48px;
+  width: 702.9px;
   height: 500px;
-  margin-left: 580px;
+  margin-left: 399px;
 }
 
 /* Welcome styles */
@@ -83,6 +94,7 @@ body {
   width: 1320px;
   height: 600px;
   margin-left: 20%;
+  margin-top: 100px;
 }
 .welcome-h3 {
   padding-left: 126px;
@@ -93,7 +105,7 @@ body {
   font-size: 64px;
   font-style: normal;
 
-  line-height: 88px;
+  
   letter-spacing: 7.04px;
 }
 .welcome-p {
@@ -104,6 +116,8 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 30px;
+  word-wrap: break-word;
+  padding-top: 10px;
 }
 .call-to-btn {
   color: #fff;
@@ -115,13 +129,19 @@ body {
   width: 160px;
   height: 64px;
   border-radius: 5px;
+  border: none;
+  margin-top: 20px;
+  background-color: #f00;
+  
 }
 #bbtn {
   margin-left: 158px;
 }
 
 /* hotel park style */
+
 .new-park-hotel {
+  margin-top: 100px;
   width: 1320px;
   height: 482px;
   background: linear-gradient(
@@ -131,7 +151,12 @@ body {
   );
   margin-left: 20%;
 }
+.all-details {
+  margin-top: 100px;
+}
 .park-1 {
+  padding-top: ;
+  margin-top: ;
   color: #f00;
   text-align: center;
   font-size: 32px;
@@ -293,12 +318,13 @@ body {
   text-align: center;
   font-size: 20px;
   text-transform: capitalize;
+  border: 0;
   
  
 }
 .main-btn{
   margin-left: 200px;
-}
+} */
 /* Newsletter Style End */
 
 
