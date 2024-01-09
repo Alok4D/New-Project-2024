@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   /* font-family: 'Merriweather', serif; */
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: "IBM Plex Sans", sans-serif;
 }
 /* Style of Body */
 header,
@@ -20,7 +20,7 @@ main,
   justify-content: center;
   align-items: center;
   width: 1320px;
-  height: 600px; 
+  height: 600px;
   margin-top: 50px;
 
   border-radius: 16px;
@@ -85,12 +85,11 @@ main,
 
 /* Welcome styles */
 
- 
 .welcome-section {
   display: flex;
-
   gap: 280px;
-  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(/images/Vectorrr.png);
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url(/images/Vectorrr.png);
   background-repeat: no-repeat;
   background-size: cover;
   fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
@@ -99,7 +98,7 @@ main,
 
   margin-top: 100px;
 }
-.welcome-section img{
+.welcome-section img {
   padding-top: 64px;
 }
 .welcome-h3 {
@@ -129,15 +128,13 @@ main,
   color: #fff;
   font-family: Inter;
   font-size: 20px;
-  
-  
+
   width: 160px;
   height: 64px;
   border-radius: 5px;
   border: ;
   margin-top: 20px;
   background-color: transparent;
-  
 }
 #bbtn {
   margin-left: 158px;
@@ -266,7 +263,6 @@ main,
   font-size: 24px;
 
   font-weight: 500;
-  
 }
 .holidays {
   color: #f00;
@@ -275,7 +271,6 @@ main,
   font-size: 72px;
   font-style: normal;
   font-weight: 900;
-  
 }
 .holidays-s {
   color: #070211;
@@ -283,19 +278,16 @@ main,
   font-size: 72px;
   font-style: normal;
   font-weight: 900;
-  
 }
 .text-sec p {
   color: rgba(7, 2, 17, 0.6);
   text-align: center;
-  
+
   font-size: 20px;
-  
+
   font-weight: 500;
-  
 }
 /* Holidays Section End */
-
 
 /* our protfolio section style */
 .banner7 {
@@ -338,7 +330,6 @@ main,
   border-radius: 16px;
   width: 424px;
   height: 450px;
-  
 }
 .img-row img:hover {
   border: 2px solid rgb(107, 83, 83);
@@ -365,7 +356,7 @@ main,
 .banner-8-text {
   color: #070211;
   text-align: center;
-
+  padding-bottom: 10px;
   font-size: 48px;
   font-style: normal;
   font-weight: 900;
@@ -373,11 +364,17 @@ main,
   text-transform: capitalize;
 }
 .banner-8-paragraph {
-  width: ;
+  width: 900px;
   color: rgba(7, 2, 17, 0.6);
   text-align: center;
-
+  align-items: center;
+  font-family: Inter;
   font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  margin-left: 212px;
+  padding-bottom: 35px;
 }
 
 .email {
@@ -486,10 +483,12 @@ footer {
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
-  
+}
+.nav-p-1 {
+  color: #fff;
+  font-size: 24px;
 }
 .contact-sec {
-
 }
 .contact-sec .info {
   position: relative;
@@ -509,61 +508,3 @@ footer {
 }
 
 /* footer style End */
-
-
-
-/* 
-.banner-section-3{
-  display: flex;
-  gap: 20px;
-  background-size: cover;
-  height: 600px;
-  margin-top: 100px;
-  background-image: no-repeat;
-  /* margin: 20px auto;
-  padding: 0px;
-  width: 1320px;
-  height: 600px; */
-  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(/images/Vectorrr.png);
-  /* align-items: center;
-  display: flex;
-  justify-content: space-between;
-  /* gap: 40px; */
-/* }   
-.banner-text-section{
-  margin: 70px;
-  padding: 100px;
-  padding-top: 10px;
-  color: white;
-  width: 550px;
-  height: 300px;
-  text-align: left;
-  
-  
-}
-.banner-title-section{
-  margin: 25px;
-  width: 642px;
-  font-family: Merriweather;
-  font-size: 40px;
-  font-weight: 400;
-  letter-spacing: 5px;
-}
-.banner-paragraph{
-  margin: 25px;
-}
-.banner-paragraph > button{
-  color: white;
-  background-color: transparent;
-  border-style: none;
-  font-size: 16px;
-  font-weight: 700;
-}
-.banner-img-section{
-  padding-right: 150px ;
-  width: 319.83px;
-  height: 464.662px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-} */ */
